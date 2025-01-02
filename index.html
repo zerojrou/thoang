@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nguyễn Văn Thoáng</title>
+  <style>
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+    }
+
+    .container {
+      display: flex;
+      max-width: 1000px;
+      margin: 20px auto;
+      background-color: rgb(221, 240, 255);
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    .left,
+    .right {
+      padding: 20px;
+    }
+
+    .left {
+      width: 40%;
+      background-color: #dae7ff;
+      border-right: 1px solid #ddd;
+      text-align: center;
+    }
+
+    .right {
+      width: 60%;
+    }
+
+    .profile img {
+      max-width: 100%;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+    }
+
+    .profile h1 {
+        font-family: 'Dancing Script', cursive;
+      font-size: 2em;
+      color: #0083c0;
+      margin: 0;
+    }
+
+    .profile p {
+      color: #00476b;
+      margin: 5px 0;
+    }
+
+    .timeline h2 {
+        font-family: 'Dancing Script', cursive;
+        font-weight: bold;
+      color: red;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 50px;
+    }
+
+    .event {
+      border-left: 3px solid #333;
+      padding-left: 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+
+    .event::before {
+      content: "";
+      position: absolute;
+      left: -7px;
+      top: 10px;
+      width: 14px;
+      height: 14px;
+      background-color: #333;
+      border-radius: 50%;
+    }
+
+    .event h3 {
+      font-size: 1.5em;
+      color: #274991;
+      margin: 0;
+    }
+
+    .event p {
+      color: #0c004e;
+      margin: 5px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <!-- Bên trái: Thông tin cá nhân -->
+    <div class="left">
+      <div class="profile">
+        <img src="https://scontent.fvca2-1.fna.fbcdn.net/v/t39.30808-6/469047729_562257353426844_8726144921270545887_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=103&ccb=1-7&_nc_sid=833d8c&_nc_ohc=DvAFCQSpIfYQ7kNvgFQP9cZ&_nc_zt=23&_nc_ht=scontent.fvca2-1.fna&_nc_gid=Acl6avRfe5UUSeNqW-gnl-K&oh=00_AYCgBsCd9bWkCkZz5xZoX1Rb5qO1hxvyS8eq9Kg0E63tPw&oe=6754A474" alt="Ảnh cá nhân">
+        <h1 style="color: red;">Nguyễn Văn Thoáng</h1>
+        <p>Ngày sinh: 09/07/2007</p>
+        <p>Email:vanthoanghs@gmail.com</p>
+        <p>Điện thoại: 0328915200</p>
+        <p>Địa chỉ: Khóm vĩnh tiền,Phường 3, thị xã Ngã Năm, tỉnh Sóc Trăng</p>
+      </div>
+    </div>
+
+    <!-- Bên phải: Các sự kiện quan trọng -->
+    <div class="right">
+      <div class="timeline">
+        <h2>Mốc Son</h2>
+
+        <div class="event">
+          <h3 style="color: blue;">Lớp 10 (Năm học 2022-2023)</h3>
+          <ul>
+            <li>Đậu tuyển sinh 10 vào trường THPT Mai Thanh Thế với 37.75 điểm.</li>
+            <li>Đậu nguyện vọng 1 vào tổ hợp 1 lớp 10A2.</li>
+            <li>Là thành viên của nhóm 2 và bắt đầu có bạn học mới, được mọi người giúp đỡ và chia sẻ kinh nghiệm trong học tập.</li>
+          </ul>
+         
+        </div>
+
+        <div class="event">
+          <h3  style="color: red;">Lớp 11 (Năm học 2023-2024)</h3>
+          <ul>
+            <li>Tiếp tục là thành viên của nhóm 2 lớp 11A2.</li>
+            <li>kết bạn thêm nhiều bạn mới   </li>
+            <li> đạt được thành tích học sinh xuất sắc </li>
+          </ul>
+        </div>
+
+        <div class="event">
+          <h3 style="color: palevioletred;">Lớp 12 (Năm học 2024-2025)</h3>
+          <ul>
+            <li>Xác định được ngành học và ngôi trường đại học mơ ước, đính hướng được tương lai của bản thân</li>
+            <li>Mục tiêu là đỗ nguyện vọng 1 trong kì thi tốt nghiệp THPT Quốc gia 2025</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
